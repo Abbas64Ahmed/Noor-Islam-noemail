@@ -30,14 +30,14 @@ fetch("questions_islam.json") // URL of the API
     // start the game & send e-mail
     document.getElementById("my-form").addEventListener("submit",function(event) {
       event.preventDefault();
-      sentEmail()
+      // sentEmail()
       if (theInputFiled.value !== "") {
         thePlayerName.innerHTML = theInputFiled.value
         theInput.remove()
         makeTimer()
-      showQuestion();
+        showQuestion();
 
-      changeTheStatus()
+        changeTheStatus()
       } else {
         // if the input filed empty make it's color red
         theInputFiled.classList.add("req")
@@ -251,13 +251,13 @@ function makeTimer() {
   }
 
 // sent email function using Emailjs serves
-function sentEmail() {
-  let players = {
-    name : document.querySelector(".the-name-of-player").value
-  }
-  emailjs.send("service_3ne7ner", "template_b1cibkm", players)
-  console.log("maasses")
-}
+// function sentEmail() {
+//   let players = {
+//     name : document.querySelector(".the-name-of-player").value
+//   }
+//   emailjs.send("service_3ne7ner", "template_b1cibkm", players)
+//   console.log("maasses")
+// }
 
 // replay btn in the end of the game
 document.getElementById("replay-btn").addEventListener("click", ()=> {
