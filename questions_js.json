@@ -1,0 +1,204 @@
+{
+  "questions": [
+    {
+      "question": "What is the output of '2' + 2 in JavaScript?",
+      "answers": [
+        "22",
+        "4",
+        "NaN",
+        "undefined"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a JavaScript data type?",
+      "answers": [
+        "float",
+        "string",
+        "double",
+        "character"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you declare a variable in JavaScript?",
+      "answers": [
+        "let myVar;",
+        "int myVar;",
+        "define myVar;",
+        "var myVar;"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does '===' mean in JavaScript?",
+      "answers": [
+        "Assignment",
+        "Equals",
+        "Equal in value and type",
+        "Inequality"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How do you write a comment in JavaScript?",
+      "answers": [
+        "# This is a comment",
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "/* This is a comment */"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the result of typeof null in JavaScript?",
+      "answers": [
+        "boolean",
+        "object",
+        "null",
+        "undefined"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is an IIFE in JavaScript?",
+      "answers": [
+        "Indexed Internal Function Element",
+        "Invocation Internalized For Expression",
+        "Immediately Invoked Function Expression",
+        "Internal Immediately Fixed Error"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How do you define a function in JavaScript?",
+      "answers": [
+        "myFunc() {}",
+        "def myFunc() {}",
+        "function myFunc() {}",
+        "function = myFunc {}"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the output of 0 == false?",
+      "answers": [
+        "false",
+        "true",
+        "undefined",
+        "NaN"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is not a reserved keyword in JavaScript?",
+      "answers": [
+        "extends",
+        "this",
+        "class",
+        "MyKeyword"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "How do you create an array in JavaScript?",
+      "answers": [
+        "var arr = {1, 2, 3};",
+        "var arr = [1, 2, 3];",
+        "var arr = new Array[1, 2, 3];",
+        "var arr = (1, 2, 3);"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which method is used to add an element at the end of an array in JavaScript?",
+      "answers": [
+        "unshift()",
+        "push()",
+        "shift()",
+        "pop()"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does JSON stand for?",
+      "answers": [
+        "JavaScript Online Network",
+        "Java Serialized Object Notation",
+        "JavaScript Object Notation",
+        "Java Syntax Object Notation"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which statement is used to terminate a loop in JavaScript?",
+      "answers": [
+        "terminate",
+        "stop",
+        "exit",
+        "break"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which method is used to convert a JSON string to a JavaScript object?",
+      "answers": [
+        "JSON.toObject()",
+        "JSON.convert()",
+        "JSON.stringify()",
+        "JSON.parse()"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the difference between 'let' and 'var'?",
+      "answers": [
+        "'let' is block-scoped, 'var' is function-scoped",
+        "'let' is faster than 'var'",
+        "'let' is used only in ES6, 'var' in ES5",
+        "There is no difference"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "answers": [
+        "It refers to the current object",
+        "It refers to the global object",
+        "It refers to the previous object",
+        "It refers to a new object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a correct way to create an object in JavaScript?",
+      "answers": [
+        "var obj = Object.create();",
+        "var obj = {key: 'value'};",
+        "var obj = (key: 'value');",
+        "var obj = [key: 'value'];"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the 'map()' method do in JavaScript?",
+      "answers": [
+        "It modifies the current array",
+        "It removes undefined values from an array",
+        "It creates a new array by applying a function to each element of the original array",
+        "It filters an array based on a condition"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "answers": [
+        "'==' compares only values, '===' compares values and types",
+        "'==' compares types, '===' compares values",
+        "'==' is strict comparison, '===' is loose comparison",
+        "There is no difference"
+      ],
+      "correct": 0
+    }
+  ]
+}

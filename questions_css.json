@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "question": "What does CSS stand for?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Creative Style System",
+        "Cascading Style System"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "answers": [
+        "color",
+        "background-color",
+        "bgcolor",
+        "background"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you select an element with id 'header'?",
+      "answers": [
+        "#header",
+        ".header",
+        "header",
+        "*header"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which property is used to change the text color?",
+      "answers": [
+        "text-color",
+        "color",
+        "font-color",
+        "textStyle"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the 'float' property do?",
+      "answers": [
+        "Positions an element relative to its parent",
+        "Aligns an element to the left or right",
+        "Centers an element",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which CSS property controls the spacing between words?",
+      "answers": [
+        "letter-spacing",
+        "word-spacing",
+        "text-spacing",
+        "spacing"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the default value of the position property?",
+      "answers": [
+        "absolute",
+        "fixed",
+        "relative",
+        "static"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "How do you apply a style to all <p> elements?",
+      "answers": [
+        "p { }",
+        "p.all { }",
+        ".p { }",
+        "#p { }"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a valid CSS unit?",
+      "answers": [
+        "px",
+        "cm",
+        "em",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "How can you make a list that lists its items with squares?",
+      "answers": [
+        "list-style-type: square;",
+        "list-type: square;",
+        "list: square;",
+        "list-style: square;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which property is used to add space between elements?",
+      "answers": [
+        "padding",
+        "margin",
+        "border",
+        "spacing"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the correct CSS syntax for making all <h1> elements bold?",
+      "answers": [
+        "h1 { font-weight: bold; }",
+        "h1 { font: bold; }",
+        "<h1 style='font-weight:bold;'>",
+        "h1 { font-style: bold; }"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which property is used to set the font size?",
+      "answers": [
+        "font-size",
+        "text-size",
+        "font-style",
+        "text-style"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the z-index property?",
+      "answers": [
+        "Control the visibility of an element",
+        "Specify the stacking order of elements",
+        "Define the size of an element",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "How do you create a class selector in CSS?",
+      "answers": [
+        "#classname",
+        ".classname",
+        "classname",
+        "*classname"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a CSS framework?",
+      "answers": [
+        "Bootstrap",
+        "JavaScript",
+        "HTML5",
+        "React"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which property is used to set the space between the content and the border?",
+      "answers": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "outline"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the CSS command to make a text italic?",
+      "answers": [
+        "font-style: italic;",
+        "text-style: italic;",
+        "font-weight: italic;",
+        "font: italic;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is used to create a responsive design?",
+      "answers": [
+        "media queries",
+        "flexbox",
+        "grid",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the 'visibility' property do?",
+      "answers": [
+        "Hides the element",
+        "Removes the element from the document flow",
+        "Makes the element visible or invisible",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How do you add a comment in CSS?",
+      "answers": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "// This is a comment //",
+        "<!-- This is a comment -->"
+      ],
+      "correct": 1
+    }
+  ]
+}

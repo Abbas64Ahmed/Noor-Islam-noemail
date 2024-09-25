@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- start name input screen  -->
+      <div class="name-input d-flex align-items-center justify-content-center ">
+        <form id="my-form" class="my-form card p-3 bg-white d-flex align-items-center justify-content-center">
+          <!-- <p class="fw-bold">what is your name:</p> -->
+          <div class="input-wrapper">
+            <input class="the-name-of-player" name="name" id="name" type="text" >
+          </div>
+          <button type="submit" class="start-btn btn btn-primary w-25 m-auto">submit</button>
+        </form>
+      </div>
+      <!-- start game stature -->
+      <div class="quiz-box mt-3">
+        <div class="header d-flex justify-content-between">
+          <div class="name">name: <span></span></div>
+          <div class="count">questions: <span></span></div>
+        </div>
+        <div class="question-aria">
+          <div class="the-question"></div>
+          <div class="the-answers">
+            <!-- <div class="answer"><span></span>dsfa</div>
+            <div class="answer"><span></span>dsfa</div>
+            <div class="answer"><span></span>dsfa</div>
+            <div class="answer"><span></span>dsfa</div> -->
+          </div>
+        </div>
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="submit-btn btn btn-primary w-100 p-3 fs-4" id="liveAlertBtn">Submit Answer</button>
+        <div class="footer d-flex justify-content-between">
+          <div class="the-prog-dots"></div>
+          <div class="timer">00:<span>20</span></div>
+        </div>
+      </div>
+      <!-- start top player - bootstrap -->
+      <a class="history-btn btn btn-primary " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        player history
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">History</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class=" fs-5 fw-bold d-flex justify-content-evenly p-3"><span>player</span><span>score</span></div>
+          <div class="players">
+            <!-- <div class="player "><span>player</span>:<span>score</span></div>
+            <div class="player "><span>abbas</span>:<span>abbas</span></div> -->
+          </div>  
+        </div>
+      </div>
+      <!-- the result of the game -bootstrap  -->
+      <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Game Result</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p id="gameResult">Here will be the result</p>
+            </div>
+            <div>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <p>can see all player history in <span style="color: blue;">players history</span>  below</p>
+              <button type="button" class="btn btn-primary m-auto" id="replay-btn">Replay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "zIACZUjgIJhu0QWUy",
+          });
+      })();
+    </script>
+  </body>
+</html>
